@@ -15,6 +15,8 @@ a {
 }
 
 
+
+
 #nav-bar {
   background-color: #003d62;
 }
@@ -33,7 +35,7 @@ a {
 #section3 {
   padding-top:50px;
   padding-bottom: 50px;
-  ;color: #003d62;
+  color: #003d62;
   background-color: #f2f2f2;
 }
 
@@ -68,6 +70,26 @@ a {
 }
 .pic_line {
   border: 1.5px solid #003d62;
-  width: 30%;
+  width: 40%;
   margin: auto;
+}
+
+.btn{
+  background-color: #003d62;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #00b599;
+}
+
+@media only screen and (max-width: 760px) {
+  .pic_line {
+    border: 1.5px solid #003d62;
+    width: 75%;
+    margin: auto;
+  }
+  .logos {
+    height:60%;
+  }
 }
