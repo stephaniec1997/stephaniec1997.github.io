@@ -1,0 +1,41 @@
+body {
+  position: relative;
+}
+
+#nav-bar {
+  background-color: #003d62;
+}
+#section1 {
+  padding-top:50px;
+  height:500px;color: #003d62;
+  background-color: #f2f2f2;
+}
+#section2 {
+  padding-top:50px;
+  height:500px;color: #f2f2f2;
+  background-color: #00b599;
+}
+#section3 {
+  padding-top:50px;
+  height:500px;color: #003d62;
+  background-color: #f2f2f2;
+}
+
+.logos {
+  height:100%;
+}
+.logos:hover {
+  box-shadow: 0px 0px 5px #fff;
+}
+
+.pic {
+  padding-top:50px;
+  height:500px;
+  color: #f2f2f2;
+  background-color: #00b599;
+}
+.pic img {
+  width: 275px;
+  height: 300px;
+  border: 7px solid #f2f2f2;
+}
