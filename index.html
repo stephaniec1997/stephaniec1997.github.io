@@ -8,6 +8,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="profile-page.css">
+  <script type="text/javascript" src="./index.js">
+
+  </script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top">
@@ -49,15 +53,15 @@
     <div class="col-sm-6">
       <br>
       <p>
-        I am a recent grad from Middlebury College. I graduted with a BA in Computer Science.
+        I am a recent grad from Middlebury College; I graduated with a BA in Computer Science.
         I have worked with youth for four years in a daycare and several nonprofit organizations.
-        One of those being Girls Who Code which helped me develop and teach programming skills.
-        However, I am now looking to transition into a software developing role. I have worked
-        on a couple of React projects and one react native project.
+        However, I am now looking to transition into a software developing role.
       </p>
       <p>
-        While I love tackling all problems, I am most interested in solving real customer
-        problems. I am always looking for an opportunity to learn.
+        I have worked on a couple of React projects and one React Native project. My strongest
+        coding languages are javascript and python. While I love tackling all problems, I am most
+        interested in solving real customer problems. I am always looking for an opportunity
+        to learn new skills and develop the ones I have.
       </p>
     </div>
     <div class="col-sm-6">
@@ -65,7 +69,9 @@
       <ul>
         <li><strong>Running: </strong>I first started running 8 years ago while in highschool.
           While I took a 3 year hiatus, I am now looking to run a marathon in 2020.</li>
-          <li><strong>Thing Two: </strong>new thing </li>
+          <li><strong>MongoDB: </strong>I love to improve my skills and right now
+          that means learning backend code. Including API creation on MongoDB. Usually
+          written in Express.</li>
         </ul>
       </div>
     </div>
@@ -90,20 +96,25 @@
           regarding their posts and create personalized profiles. I worked on the ride forms and notifcations
           API.
         </li>
-
-        <!-- TODO: Hide or show on click -->
-        <object codetype="application/x-java-applet" width="740" height="400">
-          <param name="code" value="FloodIt">
-          <param name="archive" value="FloodIt.jar">
-          Applet failed to run. No Java plug-in was found.
-        </object>
-
-
-        <li><strong><a href="#">FloodIt!:</a> </strong>
-          A game.
+        <li><strong><a onclick="showHide();" href="#FloodIt">FloodIt!:</a> </strong>
+          A game written in java. In order to win, you need to fill the whole board with one color. I worked
+          with a partner on every aspect of the game.
         </li>
-
       </ul>
+
+      <!-- TODO: Hide or show on click -->
+      <div id="FloodIt" class="FloodIt">
+        <div>
+          <button class="btn" type="button" name="button" onclick="showHide();" id="exitButton"><strong>x</strong></button>
+          <p><strong>FloodIt Applet (Needs java plug-in) and Video:</strong></p>
+        </div>
+        <object type="application/java" data="./FloodIt/FloodIt.jar"> </object>
+        <img id="vid"src="./FloodIt/FloodIt.mov" alt="Video of FloodIt Applet">
+        <br>
+
+      </div>
+
+
     </div>
     <div id="section3" class="container-fluid">
       <h1>Contact Me</h1>
@@ -135,6 +146,5 @@
       </form>
 
     </div>
-
   </body>
   </html>
