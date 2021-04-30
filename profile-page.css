@@ -26,6 +26,9 @@ a {
   color: #003d62;
   background-color: #f2f2f2;
 }
+#section1 a {
+  color: #00b599;
+}
 #section2 {
   padding-top:50px;
   padding-bottom: 50px;
