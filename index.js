@@ -1,5 +1,5 @@
-function showHide() {
-  var x = document.getElementById("FloodIt");
+function showHide(id) {
+  var x = document.getElementById(id);
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

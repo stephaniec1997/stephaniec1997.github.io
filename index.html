@@ -99,6 +99,11 @@
       <h1>Projects</h1>
       <hr class="line">
       <ul>
+        <li><strong><a onclick="showHide('scheduler');" href="#scheduler">Scheduler:</a> </strong>
+          A mobile application written in React Native with a Firebase database. The application
+          displays a calendar where user can schedule an appointment based on their plan. A project 
+          to hone in on both my React Native skills and learn Google's Firebase API.
+        </li>
         <li><strong><a href="https://lean-machine.herokuapp.com">Lean Machine:</a> </strong>
           A react.js application with a mongoDB database deployed on Heroku. A PoC of an ecommerce site for health information.
           Admin can post and edit blogs, add products, view orders and their status. Users can create accounts, read blog posts,
@@ -122,7 +127,7 @@
           regarding their posts and create personalized profiles. I worked on the ride forms and notifcations
           API.
         </li>
-        <li><strong><a onclick="showHide();" href="#FloodIt">FloodIt!:</a> </strong>
+        <li><strong><a onclick="showHide('FloodIt');" href="#FloodIt">FloodIt!:</a> </strong>
           A game written in java. In order to win, you need to fill the whole board with one color. I worked
           with a partner on every aspect of the game.The source code can be found on my Github account under the
           stephaniec1997.github.io repo.
@@ -131,11 +136,21 @@
 
       <div id="FloodIt" class="FloodIt">
         <div>
-          <button class="btn" type="button" name="button" onclick="showHide();" id="exitButton"><strong>x</strong></button>
+          <button class="btn" type="button" name="button" onclick="showHide('FloodIt');" id="exitButton"><strong>x</strong></button>
           <p><strong>FloodIt Applet (Needs java plug-in) and Video:</strong></p>
         </div>
         <object type="application/java" data="./FloodIt/FloodIt.jar"> </object>
         <img id="vid"src="./FloodIt/FloodIt.mov" alt="Video of FloodIt Applet">
+        <br>
+
+      </div>
+
+      <div id="scheduler" class="FloodIt">
+        <div>
+          <button class="btn" type="button" name="button" onclick="showHide('scheduler');" id="exitButton"><strong>x</strong></button>
+          <p><strong>Scheduler Video:</strong></p>
+        </div>
+        <img id="vid"src="./LeanMachineSchedulerDemo.mp4" alt="Video of FloodIt Applet">
         <br>
 
       </div>
