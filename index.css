@@ -15,8 +15,6 @@ a {
 }
 
 
-
-
 #nav-bar {
   background-color: #003d62;
 }
@@ -35,6 +33,23 @@ a {
   color: #f2f2f2;
   background-color: #00b599;
 }
+
+#section2 a {
+  text-decoration: underline;
+}
+
+#section2 ul {
+  list-style-type: none;
+  padding: 15px;
+}
+
+#section2 div {
+  padding: 7px;
+  border: 1px solid #003d62;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
 #section3 {
   padding-top:50px;
   padding-bottom: 50px;
@@ -92,6 +107,22 @@ a {
 
 .btn:hover{
   background-color: #00b599;
+}
+
+.used-tech {
+  padding: 0px !important;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.used-tech  li {
+  display:inline;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 2px;
+  color: #003d62;
+  background-color: #FFFFFF70;
+  line-height: 2
 }
 
 .FloodIt{
