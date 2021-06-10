@@ -6,6 +6,12 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: left;
+  margin-top: 0;
+  margin-left: 1%;
+}
+
 p {
   text-align: left;
 }
@@ -40,14 +46,18 @@ a {
 
 #section2 ul {
   list-style-type: none;
-  padding: 15px;
+  margin-bottom: 0;
+  padding: 1%;
+}
+
+#section2 li {
+  margin-bottom: 1%;
 }
 
 #section2 div {
   padding: 7px;
   border: 1px solid #003d62;
   border-radius: 5px;
-  margin-bottom: 10px;
 }
 
 #section3 {
@@ -94,6 +104,14 @@ a {
   margin: auto;
   margin-bottom: 2%;
 }
+
+.secondary-line {
+  width: 20%;
+  margin: 0;
+  margin-left: 1%;
+
+}
+
 .pic_line {
   border: 1.5px solid #003d62;
   width: 40%;
