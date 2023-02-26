@@ -118,6 +118,10 @@ a {
   margin: auto;
 }
 
+.form-group {
+  padding: 0 1%;
+}
+
 .btn{
   background-color: #003d62;
   border: none;
@@ -162,5 +166,9 @@ a {
   }
   .logos {
     height:60%;
+  }
+
+  #section2 li {
+    margin-bottom: 2%;
   }
 }
